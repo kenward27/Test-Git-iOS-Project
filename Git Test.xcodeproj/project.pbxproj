@@ -21,6 +21,7 @@
 		57FE6D7F1934EDD3004F955D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57FE6D611934EDD3004F955D /* UIKit.framework */; };
 		57FE6D871934EDD3004F955D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 57FE6D851934EDD3004F955D /* InfoPlist.strings */; };
 		57FE6D891934EDD3004F955D /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FE6D881934EDD3004F955D /* Git_TestTests.m */; };
+		57FE6D941934F0A6004F955D /* NTPTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 57FE6D931934F0A6004F955D /* NTPTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		57FE6D841934EDD3004F955D /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		57FE6D861934EDD3004F955D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		57FE6D881934EDD3004F955D /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		57FE6D921934F0A6004F955D /* NTPTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTPTest.h; sourceTree = "<group>"; };
+		57FE6D931934F0A6004F955D /* NTPTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTPTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				57FE6D731934EDD3004F955D /* NTPViewController.m */,
 				57FE6D751934EDD3004F955D /* Images.xcassets */,
 				57FE6D641934EDD3004F955D /* Supporting Files */,
+				57FE6D921934F0A6004F955D /* NTPTest.h */,
+				57FE6D931934F0A6004F955D /* NTPTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -252,6 +257,7 @@
 			files = (
 				57FE6D6A1934EDD3004F955D /* main.m in Sources */,
 				57FE6D6E1934EDD3004F955D /* NTPAppDelegate.m in Sources */,
+				57FE6D941934F0A6004F955D /* NTPTest.m in Sources */,
 				57FE6D741934EDD3004F955D /* NTPViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
